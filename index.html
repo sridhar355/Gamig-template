@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .container {
+            width: 60vw;
+            height:88vh;
+            background-color: #91e7da;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .left {
+            background-color: #d8f7f4;
+            height: 100%;
+            flex-grow: 1;
+            border-radius: 30px;
+        }
+        .right {
+            background-color: #c9f2f1;
+            height: 100%;
+            flex-grow: 2;
+        }
+        .left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profile {
+            width: 40%;
+            text-align: center;
+        }
+        .profile img {
+           width: 70px;
+           border-radius: 50%;
+        }
+        .profile p:first-child {
+            font-weight: bolder;
+            color: grey;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .profile p:last-child {
+            color: grey;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .icons{
+            width: 60%;
+        }
+        .icons span{
+            color: #8ad8d2;
+            font-size: 25px;
+        }
+        .icons div{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin-top: 30px;
+            justify-content: center;
+        }
+        .icons p{
+            color: #9db2cb;
+        }
+        .bottombox{
+            background-color: red;
+            display: flex;
+            justify-content: space-between;
+            background: #7bc4b6;
+            align-items: center;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 30px;
+            margin-top: 40px;
+            color: white;
+        }
+        .bottombox p {
+            width: 70px;
+        }
+        .bottombox img{
+            width: 60px;
+        }
+        .card{
+            width: 70%;
+            background-color: #ebfbf9;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .card img {
+            width: 70px;
+            border-radius: 30px;
+        }
+        .card p{
+            color: rgba(0, 0, 0, 0.5);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .line {
+            height: 20px;
+            background-color: #91e7d4;
+            border-radius: 30px;
+        }
+        .rightflex {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+       .info {
+        width: 60%;
+        margin: 60px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+                <div class="profile">
+                    <img src="profile.png" alt="">
+                    <p>Simo Edo</p>
+                    <p>Pro Member</p>
+                </div>
+                <div class="icons">
+                    <div>
+                        <span class="material-symbols-outlined">
+                            home
+                            </span>
+                            <p>Streams</p>
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined">
+                            home
+                            </span>
+                            <p>Streams</p>
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined">
+                            home
+                            </span>
+                            <p>Streams</p>
+                    </div>
+                    <div>
+                        <span class="material-symbols-outlined">
+                            home
+                            </span>
+                            <p>Streams</p>
+                    </div>
+                </div>
+                <div class="bottombox">
+                    <p>join Pro for Free Games</p>
+                    <img src="remote-removebg-preview.png" alt="">
+                </div>
+            </div>
+        <div class="right">
+            <div class="info">
+                <h2 style="color: rgba(0, 0, 0, 0.5);">Active Games</h2>
+                <div class="line" style="background-color: #e3f8f7;"></div>
+            </div>
+            <div class="rightflex">
+            <div class="card">
+                <img src="vicecity.jpg" alt="">
+                <div>
+                    <p>Assasins Creed Valhalla</p>
+                    <p>PS5 Version</p>
+                    <div class="line"></div>
+                </div>
+                <p>60%</p>
+            </div>
+            <div class="card">
+                <img src="vicecity.jpg" alt="">
+                <div>
+                    <p>Assasins Creed Valhalla</p>
+                    <p>PS5 Version</p>
+                    <div class="line"></div>
+                </div>
+                <p>60%</p>
+            </div>
+            <div class="card">
+                <img src="vicecity.jpg" alt="">
+                <div>
+                    <p>Assasins Creed Valhalla</p>
+                    <p>PS5 Version</p>
+                    <div class="line"></div>
+                </div>
+                <p>60%</p>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+</body>
+</html>
